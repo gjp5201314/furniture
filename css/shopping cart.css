@@ -1,0 +1,343 @@
+/* 位置 */
+#position {
+    margin-top: 150px;
+}
+
+/* 购物车 */
+#shoppingcart {
+    background-color: rgba(245, 245, 245, 1);
+    padding: 50px 0;
+}
+
+#shoppingcart .cart {
+    width: 100%;
+    background-color: white;
+    font-size: 14px;
+}
+
+#shoppingcart .cart .info {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#shoppingcart .cart .info .allchecked input {
+    vertical-align: middle;
+    background-color: rgba(245, 245, 245, 1);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 4px;
+}
+
+#shoppingcart .cart .info>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 结构 百分比 */
+#shoppingcart .cart .info>div:nth-child(1) {
+    width: 10%;
+    vertical-align: middle;
+}
+
+#shoppingcart .cart .info>div:nth-child(2) {
+    width: 30%;
+}
+
+#shoppingcart .cart .info>div:nth-child(3) {
+    width: 10%;
+}
+
+#shoppingcart .cart .info>div:nth-child(4) {
+    width: 10%;
+}
+
+#shoppingcart .cart .info>div:nth-child(5) {
+    width: 10%;
+}
+
+#shoppingcart .cart .info>div:nth-child(6) {
+    width: 10%;
+}
+
+/* 加入的商品 */
+#shoppingcart .goods {
+    border-top: 3px solid rgba(245, 245, 245, 1);
+    display: flex;
+    height: 160px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#shoppingcart .cart .goods>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*商品 的 结构 百分比 */
+#shoppingcart .cart .goods>div:nth-child(1) {
+    width: 10%;
+}
+
+#shoppingcart .cart .goods>div:nth-child(2) {
+    width: 30%;
+    color: #eaeaea;
+}
+
+#shoppingcart .cart .goods>div:nth-child(3) {
+    width: 10%;
+}
+
+#shoppingcart .cart .goods>div:nth-child(4) {
+    width: 10%;
+}
+
+#shoppingcart .cart .goods>div:nth-child(5) {
+    width: 10%;
+}
+
+#shoppingcart .cart .goods>div:nth-child(6) {
+    width: 10%;
+}
+
+/* 单选框 */
+#shoppingcart .goods .selects input {
+    background-color: rgba(245, 245, 245, 1);
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    margin-right: 32px;
+}
+
+
+#shoppingcart .goods .message a {
+    color: #505050;
+}
+
+#shoppingcart .goods .message img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+#shoppingcart .goods .message a {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#shoppingcart .goods .message a .showinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 80px;
+}
+
+#shoppingcart .goods .message a .showinfo .colorsize{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    align-items: center;
+}
+
+#shoppingcart .goods .message a .showcolor {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#shoppingcart .goods .message a .showsize {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#shoppingcart .goods .message a span {
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#shoppingcart .cart .goods .add {
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(157, 157, 157);
+}
+
+#shoppingcart .goods .add span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#shoppingcart .goods .add input {
+    width: 18px;
+    height: 20px;
+    outline: none;
+    border: 0px solid #000;
+    text-align: center;
+}
+
+#shoppingcart .del {
+    cursor: pointer;
+}
+
+/* 操作 结算 金额  */
+#shoppingcart .settlement {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 20px solid rgb(245, 245, 245);
+}
+
+
+/*操作 结算 金额 的 结构 百分比 */
+#shoppingcart .settlement>div:nth-child(1) {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#shoppingcart .settlement>div:nth-child(2) {
+    width: 45%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#shoppingcart .settlement>div:nth-child(3) {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+#shoppingcart .settlement>div:nth-child(3) span {
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+#shoppingcart .settlement>div:nth-child(4) {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+#shoppingcart .settlement>div:nth-child(4) span {
+    letter-spacing: 0px;
+    font-size: 24px;
+    color: rgb(219, 93, 25);
+    margin: 0 2px;
+}
+
+#shoppingcart .settlement>div:nth-child(5) {
+    width: 20%;
+    background-color: rgb(224, 224, 224);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+#shoppingcart .settlement>div:nth-child(5):hover {
+    background-color: rgb(234, 138, 83);
+    color: white;
+}
+
+/* 空购物车 */
+#shoppingcart .emptycart {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#shoppingcart .emptycart img {
+    width: 50%;
+}
+
+#shoppingcart .emptycart div {
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(176, 176, 176);
+    width: 40%;
+}
+
+#shoppingcart .emptycart div button {
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 0px solid #000;
+    background-color: rgb(47, 41, 53);
+    color: white;
+}
+
+
+/* 小于768px */
+@media screen and (max-width:768px) {
+    #shoppingcart .cart {
+        font-size: 12px;
+    }
+
+    #shoppingcart .cart .info>div:nth-child(2) {
+        width: 25%;
+    }
+
+    #shoppingcart .cart .info>div:nth-child(1) {
+        width: 15%;
+    }
+
+
+    #shoppingcart .goods .message a {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #shoppingcart .cart .goods>div:nth-child(2) {
+        height: 100%;
+    }
+
+    #shoppingcart .settlement>div:nth-child(3) {
+        width: 20%;
+        letter-spacing: 1px;
+    }
+
+    #shoppingcart .settlement>div:nth-child(2) {
+        display: none;
+    }
+
+    #shoppingcart .settlement>div:nth-child(4) {
+        width: 30%;
+        letter-spacing: 1px;
+    }
+
+    #shoppingcart .goods{
+        height: 200px;
+    }
+}

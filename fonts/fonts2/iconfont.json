@@ -1,0 +1,37 @@
+{
+  "id": "3603600",
+  "name": "jia'ju",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "630129",
+      "name": "正确",
+      "font_class": "zhengque",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "68264",
+      "name": "搜索，猫客",
+      "font_class": "sousuo",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "627385",
+      "name": "错误",
+      "font_class": "cuowu",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "1841762",
+      "name": "个人",
+      "font_class": "geren",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    }
+  ]
+}

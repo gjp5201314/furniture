@@ -1,0 +1,122 @@
+/* 顶部 */
+/* 导航栏 */
+/* 大于1200px */
+/* 轮播图 */
+#banner {
+    height: 310px;
+    margin-bottom: 0;
+    background: url(../images/banner5.jpg) no-repeat center center;
+}
+
+
+/* 产品区 */
+#newinfo {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+#newinfo .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#newinfo .content .left {
+    width: 260px;
+}
+
+#newinfo .content .left li:not(:last-child) {
+    width: 260px;
+    height: 70px;
+    background-color: #f2f2f2;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#newinfo .content .left li:not(:last-child) a {
+    color: #413f30;
+}
+
+#newinfo .content .left li:last-child {
+    width: 260px;
+    aspect-ratio: 260/260;
+}
+
+#newinfo .content .left li:last-child img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#newinfo .content .left li:hover {
+    background-color: #12bcd5;
+    color: white;
+}
+
+/* 右边的内容 */
+#newinfo .content .right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+#newinfo .content .right li {
+    padding: 20px 0;
+    border-bottom: 2px dotted #bdbbbb;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#newinfo .content .right li a:hover {
+    text-decoration: underline;
+}
+
+#newinfo .content .right li span {
+    margin: 12px 0;
+    color: #bdbbbb;
+}
+
+#newinfo .content .right li p {
+    line-height: 20px;
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+/* 小于1200px */
+@media screen and (max-width:1200px) {}
+
+/* 小于992px */
+
+@media screen and (max-width:992px) {}
+
+/* 小于768px */
+
+@media screen and (max-width:768px) {
+    #newinfo .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #newinfo .content .left {
+        width: 100%;
+    }
+
+    #newinfo .content .left li:last-child {
+        aspect-ratio: 0;
+    }
+
+    #newinfo .content .left img {
+        display: none;
+    }
+
+    #newinfo .content .left li:not(:last-child) {
+        width: 100%;
+        font-size: 18px;
+        height: 60px;
+        line-height: 60px;
+        margin-bottom: 10px;
+    }
+
+}
